@@ -23,12 +23,12 @@ Here are instructions of the classification baselines for the three short text d
 **Instructions of Archives:**  
     ./README.md: Some notices and instructions.  
     ./Classification_ACC.m: Test the classification performance with SVM, and the results are listed below.  
-　　./normalize.m: normalize the feature vectors;  
-　　./predict.mexw64: LibSVM libraries;  
-　　./svmpredict.mexw64  
-　　./svmtrain.mexw64  
-　　./train.mexw64  
-　　./tf_idf.m: Compute TF-IDF;  
+    ./normalize.m: normalize the feature vectors;  
+    ./predict.mexw64: LibSVM libraries;  
+    ./svmpredict.mexw64  
+    ./svmtrain.mexw64  
+    ./train.mexw64  
+    ./tf_idf.m: Compute TF-IDF;  
 
 **ACC Results:**  
 |Classification Methods|SearchSnippets|StackOverflow|Biomedical |  
