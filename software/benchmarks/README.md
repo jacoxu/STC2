@@ -31,6 +31,7 @@ Here are instructions of the classification baselines for the three short text d
 >./tf_idf.m: Compute TF-IDF;  
 
 **ACC Results:**  
+
 Classification Methods|SearchSnippets|StackOverflow|Biomedical
  ------------- |:-------------:|:-------------:|:-------------:
 SVM-Linear (TF)|	67.72|	83.70|	71.48
@@ -39,4 +40,3 @@ SVM-Kernel (TF)|	62.32|	79.05|	68.73
 SVM-Kernel (TFIDF)|	64.78|	82.23	|70.85
 SVM-Linear (AE)|	87.15|	81.90	|62.75
 SVM-Kernel (AE)|	87.63	|81.43|	62.80
-
