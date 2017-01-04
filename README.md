@@ -45,4 +45,24 @@ Here are instructions of the demo dataset&software for the paper [Self-Taught Co
         -- StackOverflow-lite.mat: mini dataset only including feature vectors (fea) and labels (gnd);          
         -- StackOverflow-STC2.mat: dataset for STC^2, including 20,000 short texts, 20 topics/tags and the pre-trained word embeddings;           
     ./software/: Main folder of software;  
-				-- To be appeared soon.    
+				-- main_STC2.m: main function, and select one clustering method here: Kmeans, RecNN, AveEmbedding, LSA, Spectral_LE, etc.;  
+				-- run.sh: running it on commond line for linux user rather than window user;  
+				-- STC2.m: interfaces of clustering methods;  
+				-- STC2_CNN.m: interfaces of DCNN;  
+				-- AE/: Average Embedding (AE) folder;  
+				-- DCNN/: Dynamic Convolutional Neural Network (DCNN)[1] folder;  
+				-- LE/: Laplacian Eigenmaps (LE)[2] folder;  
+				-- LPI/: Locality Preserving Indexing (LPI)[3] folder;  
+				-- LSA/: Latent Semantic Analysis (LSA)[4] folder;  
+				-- Para2vec/: Paragraph vector (Para2vec)[5] folder;  
+				-- RecNN/: Recursive Neural Network (RecNN)[6] folder;  
+				-- results/: All evaluate results (ACC and NMI) of clustering will be saved in this folder;  
+				-- tools/: Tool folder;  
+				
+				
+[1]. N. Kalchbrenner, E. Grefenstette, P. Blunsom, A convolutional neural network for modelling sentences, ACL, 2014.  
+[2]. M. Belkin, P. Niyogi, Laplacian eigenmaps and spectral techniques for embedding and clustering, NIPS, 2001.  
+[3]. D. Cai, X. He, J. Han, Document clustering using locality preserving indexing, IEEE Transactions on Knowledge and Data Engineering, 2005.  
+[4]. S. C. Deerwester, S. T. Dumais, T. K. Landauer, G. W. Furnas, R. A. Harshman, Indexing by latent semantic analysis, JAsIs, 1990.  
+[5]. Q. Le, T. Mikolov, Distributed representations of sentences and documents, ICML, 2014.  
+[6]. R. Socher, J. Pennington, E. H. Huang, A. Y. Ng, C. D. Manning, Semisupervised recursive autoencoders for predicting sentiment distributions, EMNLP, 2011.  
