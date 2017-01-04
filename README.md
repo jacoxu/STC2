@@ -57,7 +57,8 @@ Here are instructions of the demo dataset&software for the paper [Self-Taught Co
 				-- Para2vec/: Paragraph vector (Para2vec)[5] folder;  
 				-- RecNN/: Recursive Neural Network (RecNN)[6] folder;  
 				-- results/: All evaluate results (ACC and NMI) of clustering will be saved in this folder;  
-				-- tools/: Tool folder;  
+				-- tools/: Tool folder;
+				-- benchmarks/: Contains some classification benchmarks, SVM-linear or SVM-RBF on TF, TFIDF or AE. Get more classification details into this folder;  
 				
 				
 [1]. N. Kalchbrenner, E. Grefenstette, P. Blunsom, A convolutional neural network for modelling sentences, ACL, 2014.  
