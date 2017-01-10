@@ -20,7 +20,7 @@ elseif (strcmp(Weighting,'TFIDF'))
     trainFea = fea(trainIdx, :);
     testGnd = gnd(testIdx, :);
     trainGnd = gnd(trainIdx, :);    
-    [trainFea, testFea] = tf_idf(trainFea, testFea);
+    [trainFea, testFea] = tf_idf_tt(trainFea, testFea);
 elseif (strcmp(Weighting,'AE'))
     dataStr=['./../../dataset/',dataset,'-STC2.mat'];
     load(dataStr);

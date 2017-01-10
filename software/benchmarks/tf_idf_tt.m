@@ -1,4 +1,4 @@
-function [trainX, testX] = tf_idf(trainTF, testTF)
+function [trainX, testX] = tf_idf_tt(trainTF, testTF)
 % TF-IDF weighting
 % ([1+log(tf)]*log[N/df])
 [n,m] = size(trainTF);  % the number of (training) documents and terms

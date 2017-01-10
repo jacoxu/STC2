@@ -28,7 +28,7 @@ Here are instructions of the classification baselines for the three short text d
 >./svmpredict.mexw64  
 >./svmtrain.mexw64  
 >./train.mexw64  
->./tf_idf.m: Compute TF-IDF;  
+>./tf_idf_tt.m: Compute TF-IDF for train and test;  
 
 **ACC Results:**  
 
