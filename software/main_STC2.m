@@ -8,7 +8,7 @@ addpath(genpath([pwd '/']));
 % Kmeans, RecNN, AveEmbedding, LSA, Spectral_LE, LPI,STC2_AE, STC2_LSA, STC2_LE, STC2_LPI,
 % para2vecs, skip_uni, skip_bi, skip_combine
 % NOTE: for para2vecs and skip_thought methods, should first generate the text vectors
-method='Kmeans'; 
+method='AveEmbedding'; 
 parameters.weightMode=1; % 0 - TF or 1 - TFIDF weighting for Kmeans and AveEmbedding methods.
 dataset='Biomedical'; % SearchSnippets, StackOverflow or Biomedical
 index=0;
