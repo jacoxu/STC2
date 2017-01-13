@@ -1,9 +1,9 @@
-[Self-Taught Convolutional Neural Networks for Short Text Clustering](https://arxiv.org/abs/1701.00185)  
+[Self-Taught Convolutional Neural Networks for Short Text Clustering](http://dx.doi.org/10.1016/j.neunet.2016.12.008)  
 ============================================================================  
 @article{xu2017self,    
   title={Self-Taught Convolutional Neural Networks for Short Text Clustering},    
   author={Xu, Jiaming and Xu, Bo and Wang, Peng and Zheng, Suncong and Tian, Guanhua and Zhao, Jun and Xu, Bo},    
-  journal={arXiv preprint arXiv:1701.00185},    
+  journal={Neural Networks},    
   year={2017}    
 }    
 
