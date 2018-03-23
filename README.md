@@ -4,6 +4,8 @@
   title={Self-Taught Convolutional Neural Networks for Short Text Clustering},    
   author={Xu, Jiaming and Xu, Bo and Wang, Peng and Zheng, Suncong and Tian, Guanhua and Zhao, Jun and Xu, Bo},    
   journal={[Neural Networks](http://dx.doi.org/10.1016/j.neunet.2016.12.008)},      
+  volume={88},    
+  pages={22-31},    
   year={2017}    
 }    
 
